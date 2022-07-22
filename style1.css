@@ -1,0 +1,24 @@
+h3 {
+    text-align: center;
+  }
+  h6 {
+    text-align: center;
+  }
+  #header-and-btns-div {
+    text-align: center;
+    background-color: transparent;
+  }
+  #foot{
+    text-align: center;
+    background-color: transparent;
+  }
+  #carouselExampleIndicators{
+    height: 100%;
+    width: 100%;
+  }
+  #main{
+    background-color: transparent;
+  }
+  #nav-header{
+    background-color: transparent;
+  }

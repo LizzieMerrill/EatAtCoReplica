@@ -5,49 +5,82 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>CO</title>
+
+<style>
+  h3 {
+    text-align: center;
+  }
+  h5 {
+    text-align: center;
+  }
+  #header-and-btns {
+    text-align: center;
+  }
+</style>
+
 </head>
 <body>
     <header>
         <nav class="navbar navbar-expand-md navbar-dark bg-dark">
   <div class="container-fluid">
-    <a class="navbar-brand" href="#">Navbar scroll</a>
+    <a class="navbar-brand" href="#">CO</a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
     <div class="collapse navbar-collapse" id="navbarScroll">
       <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
-        <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="#">Home</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Link</a>
-        </li>
+        
         <li class="nav-item dropdown">
           <a class="nav-link dropdown-toggle" href="#" id="navbarScrollingDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-            Link
+            Locations & Menus
+            <ul class="dropdown-menu" aria-labelledby="navbarScrollingDropdown">
+              <li><a class="dropdown-item" href="#">Phoenix</a></li>
+              <li><a class="dropdown-item" href="#">Tempe</a></li>
+              <li><a class="dropdown-item" href="#">Scottsdale</a></li>
+                <li><a class="dropdown-item" href="#">Mesa</a></li>
+                <li><a class="dropdown-item" href="#">Gilbert</a></li>
+                <li><a class="dropdown-item" href="#">The Rest of the World</a></li>
+                <li><hr class="dropdown-divider"></li>
+            </ul>
           </a>
-          <ul class="dropdown-menu" aria-labelledby="navbarScrollingDropdown">
-            <li><a class="dropdown-item" href="#">Locations & Menus</a></li>
-            <li><a class="dropdown-item" href="#">About</a></li>
-              <li><a class="dropdown-item" href="#">Gift Card</a></li>
-              <li><a class="dropdown-item" href="#">Press</a></li>
-              <li><a class="dropdown-item" href="#">Order Online</a></li>
-              <li><hr class="dropdown-divider"></li>
-          </ul>
+
         </li>
+        
         <li class="nav-item">
-          <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Link</a>
+          <a class="nav-link active" aria-current="page" href="#">About</a>
         </li>
+
+        <li class="nav-item">
+          <a class="nav-link" href="#">Gift Cards</a>
+        </li>
+
+        
+        <li class="nav-item">
+          <a class="nav-link" href="#">Press</a>
+        </li>
+        <button type="button" class="btn btn-danger">Order Online</button>
       </ul>
-      <form class="d-flex">
-        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-        <button class="btn btn-outline-success" type="submit">Search</button>
-      </form>
+      
     </div>
   </div>
 </nav>
     </header>
+
+<div id="header-and-btns">
+    <h3>A MODERN TAKE ON TRADITIONAL SOUTHEAST ASIAN CUISINE</h3>
+    <h5>Pho | Ramen | Dumplings | Banh Mi | Sushi | Cocktails</h5>
+
+    <button id="btn1" type="button" class="btn btn-danger">Phoenix</button>
+    <button id="btn2" type="button" class="btn btn-danger">Tempe</button>
+    <button id="btn3" type="button" class="btn btn-danger">Scottsdale</button>
+    <button id="btn4" type="button" class="btn btn-danger">Mesa</button>
+    <button id="btn5" type="button" class="btn btn-danger">Gilbert</button>
+    <button id="btn6" type="button" class="btn btn-danger">The Rest of the World</button>
+
+</div>
+
+
 
     <!--Carousel code-->
     <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
